@@ -10,12 +10,12 @@ make
 也可直接运行 compile.sh
 
 ## 项目运行需要的的环境
-C++11
-muduo库
-mysql
-nginx tcp 负载均衡 （nginx tcp 模式需要修改配置文件）
-redis
-json 库（已包含在thirdparty 文件夹）
+* C++11
+* muduo库
+* mysql
+* nginx tcp 负载均衡 （nginx tcp 模式需要修改配置文件）
+* redis
+* json 库（已包含在thirdparty 文件夹）
 
 ## 项目介绍
 * 使用muduo网络库作为项目的网络核心模块，提供高并发网络I/O服务，解耦网络和业务模块代码
